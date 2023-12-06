@@ -62,6 +62,7 @@ hr {
 }
 
 .quote {
+    font-size: 1.6rem;
     color: var(--soft-beige);
     font-family: 'Thasadith', sans-serif;
     font-style: italic;
@@ -164,5 +165,9 @@ hr {
 
     p {
         font-size: 1.8rem;
+    }
+
+    .quote {
+        font-size: 1.9rem;
     }
 }
