@@ -1,0 +1,163 @@
+:root {
+    --green: #698269;
+    --red: #AA5656;
+    --soft-beige: #F1DBBF;
+    --dark-beige: #B99B6B;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Thasadith', sans-serif;
+    color: var(--green);
+    background-color: var(--soft-beige);
+}
+
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+h1,
+h2 {
+    font-family: 'Parisienne', cursive;
+    color: var(--soft-beige);
+}
+
+h3 {
+    font-size: 2.2rem;
+    margin: 1rem 0;
+    color: var(--red);
+}
+
+h4 {
+    font-size: 1.7rem;
+    margin: 0.5rem 0;
+    color: var(--dark-beige);
+}
+
+
+h3,
+h4 {
+    font-family: 'Playfair', serif;
+
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+a {
+    color: var(--red);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+hr {
+    border-top: 3px dotted var(--green);
+}
+
+.quote {
+    color: var(--soft-beige);
+    font-family: 'Thasadith', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote-author {
+    color: var(--soft-beige);
+    text-align: center;
+    font-family: 'Playfair', serif;
+}
+
+.head {
+    background-color: var(--green);
+    min-height: 25rem;
+    max-height: 32rem;
+
+}
+
+.container {
+    padding: 5rem;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%;
+}
+
+.bg-body-tertiary {
+    background-color: var(--red) !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--soft-beige);
+    font-family: 'Playfair', serif;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: var(--dark-beige);
+}
+
+.main-photo {
+    max-height: 12rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+.text-cont {
+    padding: 3rem;
+}
+
+.after-photo-cont {
+    padding: 10rem 3rem 3rem;
+}
+
+
+
+@media (min-width: 1024px) {
+    .main-photo {
+        max-height: 20rem;
+        margin: 0;
+    }
+
+    .text-cont {
+        padding: 8rem 10rem;
+    }
+
+    .after-photo-cont {
+        padding: 15rem 10rem 10rem;
+    }
+
+    h1 {
+        font-size: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        font-size: 3.2rem;
+        margin: 1.5rem 0;
+    }
+
+    h4 {
+        font-size: 2.4rem;
+        margin: 1rem 0;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+}
