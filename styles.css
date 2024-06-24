@@ -136,18 +136,19 @@ hr {
     .main-photo {
         max-height: 20rem;
         margin: 0;
+        margin-left: -15rem;
     }
 
     .container {
-        padding: 5rem;
+        padding: 5rem 25rem;
     }
 
     .text-cont {
-        padding: 8rem 10rem;
+        padding: 8rem 25rem;
     }
 
     .after-photo-cont {
-        padding: 15rem 10rem 10rem;
+        padding: 15rem 25rem 10rem;
     }
 
     h1 {
@@ -156,17 +157,17 @@ hr {
     }
 
     h3 {
-        font-size: 3.2rem;
+        font-size: 2.4rem;
         margin: 1.5rem 0;
     }
 
     h4 {
-        font-size: 2.4rem;
+        font-size: 1.9rem;
         margin: 1rem 0;
     }
 
     p {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .quote {
